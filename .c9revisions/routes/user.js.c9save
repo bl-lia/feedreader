@@ -1,0 +1,2 @@
+{"ts":1369820007783,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1369819923663,"patch":[[{"diffs":[[1,"/*\r\n * GET users listing.\r\n */\r\n\r\nexports.list = function(req, res){\r\n  res.send(\"respond with a resource\");\r\n};"]],"start1":0,"start2":0,"length1":0,"length2":112}]],"length":112,"saved":false}
