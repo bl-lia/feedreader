@@ -1,0 +1,3 @@
+[submodule "public/bootplate"]
+	path = public/bootplate
+	url = git://github.com/enyojs/bootplate.git
