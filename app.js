@@ -45,7 +45,7 @@ app.get('/sandbox', reader.sandbox);
 // app.listen(process.env.PORT);
 // console.log("Express server listening on port %d in %s mode", process.env.PORT, app.settings.env);
 
-var s = socketio.listen(app.listen(app.get('port')), function(){
+var s = socketio.listen(app.listen(process.env.PORT), function(){
     console.log("Express server listening on port " + app.get('port') + " with socket.io");
 });
 

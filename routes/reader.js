@@ -1,5 +1,5 @@
 exports.index = function(req, res){
-    res.render('reader');    
+    res.render('reader', {title: "feedreader"});    
 };
 
 exports.callApi = function(req, res){

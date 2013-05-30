@@ -1,5 +1,9 @@
 // reference the http module so we can create a webserver
-var http = require("http");
+var express = require("express")
+    , app   = express()
+    , http  = require("http")
+    , server = http.createServer(app)
+    , io     = require("socket.io").listen(server);
 
 // create a server
 http.createServer(function(req, res) {

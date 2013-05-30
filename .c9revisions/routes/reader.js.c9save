@@ -1,2 +1,5 @@
 {"ts":1369820043036,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1369819959276,"patch":[[{"diffs":[[1,"exports.index = function(req, res){\r\n    res.render('reader');    \r\n};\r\n\r\nexports.callApi = function(req, res){\r\n    res.jsonp({name: req.params.name});\r\n};\r\n\r\nexports.sandbox = function(req, res){\r\n    res.render('sandbox');\r\n};"]],"start1":0,"start2":0,"length1":0,"length2":229}]],"length":229,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1369907651493,"patch":[[{"diffs":[[0,"ion(req, res){\r\n"],[1,"    console.log(\"reader\");\r\n"],[0,"    res.render('"]],"start1":21,"start2":21,"length1":32,"length2":60}]],"length":257,"saved":false}
+{"ts":1369907675925,"patch":[[{"diffs":[[0,"){\r\n"],[-1,"    console.log(\"reader\");\r\n"],[0,"    "]],"start1":33,"start2":33,"length1":36,"length2":8}]],"length":229,"saved":false}
+{"ts":1369907828474,"patch":[[{"diffs":[[0,"'reader'"],[1,", {title: \"feedreader\"}"],[0,");    \r\n"]],"start1":52,"start2":52,"length1":16,"length2":39}]],"length":252,"saved":false}

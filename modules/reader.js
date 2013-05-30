@@ -2,7 +2,7 @@ var feedparser = require('feedparser')
     , mongoose = require('mongoose')
     , schema   = require('./schema');
     
-mongoose.connect('mongodb://localhost/rssreader');
+mongoose.connect('mongodb://feedreader:feedreader@dharma.mongohq.com:10067/feedreaderdb');
 mongoose.connection.on('error', function(err){
     console.error('error occurred');
     throw err;
