@@ -1,7 +1,7 @@
 enyo.depends(
-    "feedtag.js",
-    "article.js",
-    "nav.js",
-    "main.js",
-    "reader.js"
+    "/javascripts/rssreader/feedtag.js",
+    "/javascripts/rssreader/article.js",
+    "/javascripts/rssreader/nav.js",
+    "/javascripts/rssreader/main.js",
+    "/javascripts/rssreader/reader.js"
 );
