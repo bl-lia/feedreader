@@ -1,5 +1,5 @@
 enyo.kind({
-    name: "App",
+    name: "FeedReader",
     components: [
         {name: "rootPanel", kind: "reader.fragment.RootPanel"}
     ],

@@ -12,7 +12,7 @@ heml
         script(type='text/javascript', src='/javascripts/rssreader/package.js')
         script(type='text/javascript')
             var socket = io.connect(window.location.protocol + '//' + window.location.host);
-            var app = new App();
+            var app = new FeedReader();
 
             socket.on('error occured', function(data){
                 console.log('error occurred:%s', data.error.stack);
